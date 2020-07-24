@@ -1,6 +1,7 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const util = require("util");
+const generateMarkdown = require("./utils/generateMarkdown.js");
 
 // array of questions for user
 const questions = [
@@ -38,8 +39,20 @@ const questions = [
     type: "input",
     message: "What license would you like to use?",
     name: "license",
+    choices: [
+      "GNU AGPLv3",
+      "GNU GPLv3",
+      "GNU LGPLv3",
+      "Mozilla",
+      "Apache",
+      "MIT",
+      "Boost",
+      "Unlicense",
+    ],
   },
-  {},
+  {
+    type: "input",
+  },
 ];
 
 // function to write README file
