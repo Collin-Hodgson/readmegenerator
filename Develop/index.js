@@ -19,7 +19,7 @@ function promptUser() {
     {
       type: "input",
       message: "Enter instruction on how to install the project.",
-      name: "instruction",
+      name: "installation",
     },
     {
       type: "input",
@@ -29,7 +29,7 @@ function promptUser() {
     {
       type: "input",
       message: "Enter all contributors to the project.",
-      name: "contributors",
+      name: "contribution",
     },
     {
       type: "input",
@@ -71,6 +71,24 @@ function generateReadMe(answers) {
   ![${answers.license}](https://img.shields.io/badge/License-${encodeURI(
     answers.license
   )}-green.svg)
+
+  # Description
+
+  ${answers.description}
+
+  # Table of Contents
+
+  * [Installation](#Installation)
+  * [Usage](#Usage)
+  * [License](#License)
+  * [Contribution](#Contribution)
+  * [Tests](#Tests)
+  * [Questions](#Questions)
+  
+  # Installation
+
+  ${answers.installation}
+
 `;
 }
 
