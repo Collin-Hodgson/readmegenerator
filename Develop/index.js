@@ -89,6 +89,27 @@ function generateReadMe(answers) {
 
   ${answers.installation}
 
+  # Usage
+
+  ${answers.usage}
+
+  # License
+
+  This project uses the following license: ${answers.license}
+  For any questions regarding licensing refer to https://choosealicense.com/licenses/ 
+
+  # Contribution
+
+  ${answers.contribution}
+
+  # Tests
+
+  ${answers.testing}
+
+  # Questions/Contact
+
+  Github Username: ${answers.github}
+  Email: ${answers.email}
 `;
 }
 
