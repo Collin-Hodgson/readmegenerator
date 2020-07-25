@@ -37,7 +37,7 @@ function promptUser() {
       name: "testing",
     },
     {
-      type: "input",
+      type: "list",
       message: "What license would you like to use?",
       name: "license",
       choices: [
