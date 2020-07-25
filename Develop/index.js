@@ -95,8 +95,8 @@ function generateReadMe(answers) {
 
   # License
 
-  This project uses the following license: ${answers.license}
-  For any questions regarding licensing refer to https://choosealicense.com/licenses/ 
+  * This project uses the following license: ${answers.license}
+  * For any questions regarding licensing refer to https://choosealicense.com/licenses/ 
 
   # Contribution
 
@@ -108,8 +108,8 @@ function generateReadMe(answers) {
 
   # Questions/Contact
 
-  Github Username: ${answers.github}
-  Email: ${answers.email}
+  * Github Username: ${answers.github}
+  * Email: ${answers.email}
 `;
 }
 

@@ -26,8 +26,8 @@
 
   # License
 
-  This project uses the following license: GNU GPLv3
-  For any questions regarding licensing refer to https://choosealicense.com/licenses/ 
+  * This project uses the following license: GNU GPLv3
+  * For any questions regarding licensing refer to https://choosealicense.com/licenses/ 
 
   # Contribution
 
@@ -39,5 +39,5 @@
 
   # Questions/Contact
 
-  Github Username: Collin-Hodgson
-  Email: collinhodgs@gmail.com
+  * Github Username: Collin-Hodgson
+  * Email: collinhodgs@gmail.com
